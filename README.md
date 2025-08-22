@@ -2,8 +2,7 @@
 
 ---
 
-## 🧱 **Flex**
-O componente **Flex** é usado para criar layouts flexíveis e responsivos.
+
 
 ### Principais Propriedades:
 - **`flex`**: Define se o elemento ocupa todo o espaço disponível.
@@ -15,6 +14,9 @@ O componente **Flex** é usado para criar layouts flexíveis e responsivos.
 - **`overflow`**: Controla o comportamento de overflow.
 - **`css{{}}`**: Para especificar seu próprio estilo baseado em css (geralmente tem em todos os componentes siakit)
 - Outros... (Ctrl + Espaço para saber todos)
+- 
+## 🧱 **Flex**
+O componente **Flex** é usado para criar layouts flexíveis e responsivos.
 
 ### Exemplo de Uso:
 ```jsx

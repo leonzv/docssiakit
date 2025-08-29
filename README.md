@@ -368,6 +368,7 @@ export function GridExample() {
   <Text>Texto normal</Text>
   <Text size="lg">Texto grande</Text>
   <Text size="sm">Texto pequeno</Text>
+  <Text lowContrast>Texto mais apagado para secundário</Text>
   ```
 
 - **Separator**:  

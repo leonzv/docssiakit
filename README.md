@@ -435,7 +435,7 @@ export function GridExample() {
 
    1. Tokens de cor
      - Existem os tokens do tema, por exemplo: `$gray6`, `$white`, `$primary` ou tokens de sombra como `$lg`. Esses tokens mantêm a aparência consistente com o design system.
-     - Use variáveis CSS globais (`var(--colors-...)`) apenas quando precisar acessar ou sobrescrever valores expostos globalmente (por exemplo: `var(--colors-red10)`).
+     - Use variáveis CSS globais (`var(--colors-...)`), por exemplo: `var(--colors-red10)`.
 
    2. Prop `css={{}}`
      - Muitos componentes aceitam `css={{ ... }}` para customização localizada.
@@ -443,7 +443,7 @@ export function GridExample() {
      - Exemplos:
 
      ```jsx
-     <Heading size="xxs" css={{ color: '$white' }}>Título</Heading>
+     <Heading size="xxs" css={{ color: 'var(--colors-red10)' }}>Título</Heading>
      <Card css={{ backgroundColor: '$gray6' }}>Conteúdo</Card>
      <Flex css={{ backgroundColor: 'var(--colors-gray9)' }}>...</Flex>
      ```
